@@ -1827,19 +1827,19 @@
     ]
   },
   "packageFolders": {
-    "/home/gustavo/.nuget/packages/": {}
+    "/home/nocgustavo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gustavo/dev/c#/Blog/Blog.csproj",
+      "projectUniqueName": "/home/nocgustavo/dev/c#/Blog/Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "/home/gustavo/dev/c#/Blog/Blog.csproj",
-      "packagesPath": "/home/gustavo/.nuget/packages/",
-      "outputPath": "/home/gustavo/dev/c#/Blog/obj/",
+      "projectPath": "/home/nocgustavo/dev/c#/Blog/Blog.csproj",
+      "packagesPath": "/home/nocgustavo/.nuget/packages/",
+      "outputPath": "/home/nocgustavo/dev/c#/Blog/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gustavo/.nuget/NuGet/NuGet.Config"
+        "/home/nocgustavo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
