@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/nocgustavo/dev/c#/Blog/Blog.csproj": {}
+    "C:\\dev\\dotnet\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "/home/nocgustavo/dev/c#/Blog/Blog.csproj": {
+    "C:\\dev\\dotnet\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nocgustavo/dev/c#/Blog/Blog.csproj",
+        "projectUniqueName": "C:\\dev\\dotnet\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "/home/nocgustavo/dev/c#/Blog/Blog.csproj",
-        "packagesPath": "/home/nocgustavo/.nuget/packages/",
-        "outputPath": "/home/nocgustavo/dev/c#/Blog/obj/",
+        "projectPath": "C:\\dev\\dotnet\\Blog\\Blog.csproj",
+        "packagesPath": "C:\\Users\\Gustavo-noc\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\dotnet\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nocgustavo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Gustavo-noc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -47,6 +55,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "SecureIdentity": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -67,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
